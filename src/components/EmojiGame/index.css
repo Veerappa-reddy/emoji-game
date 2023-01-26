@@ -1,0 +1,24 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #9796f0;
+  height: 100vh;
+}
+.emojis-container {
+  padding: 60px;
+  /* display: flex; */
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 230px;
+}
+.unOrderList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}

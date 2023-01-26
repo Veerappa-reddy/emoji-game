@@ -1,0 +1,10 @@
+.emoji-card {
+  background-color: #baace5;
+  border: 2px solid #c3b8eb;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+}
+.emoji-image {
+  width: 75px;
+}

@@ -1,0 +1,30 @@
+.nav-container {
+  display: flex;
+  background-color: #b5abe6;
+  height: 100px;
+  justify-content: space-around;
+}
+.logo-image {
+  height: 40px;
+  align-self: center;
+}
+.score-conatiner {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-self: center;
+}
+.score {
+  margin-right: 15px;
+}
+.top-score {
+  margin-left: 15px;
+}
+.game-heading {
+  font-size: 20px;
+  color: #fff;
+  align-self: center;
+}
+.game-name-container {
+  display: flex;
+}

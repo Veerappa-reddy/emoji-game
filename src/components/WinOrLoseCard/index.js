@@ -3,7 +3,7 @@ import './index.css'
 const WinOrLoseCard = props => {
   const {topScore, clickEmojiList, totalEmojiList, onPlayAgain} = props
 
-  const wonOrLoseText = topScore === totalEmojiList.length ? 'Won' : 'Loss'
+  const wonOrLoseText = topScore === totalEmojiList.length ? 'Won' : 'Lose'
 
   const finalScore = topScore
 

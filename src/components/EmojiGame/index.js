@@ -49,6 +49,10 @@ class EmojiGame extends Component {
       this.setState(prevState => ({
         clickedEmojisList: [...prevState.clickedEmojisList, id],
       }))
+
+      if (clickedEmojisList.length + 1 === 12) {
+        this.finishGameSetTopScore(clickedEmojisList.length + 1)
+      }
     }
   }
 
